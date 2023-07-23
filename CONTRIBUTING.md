@@ -23,6 +23,7 @@ Install the following packages:
 ./composer.phar require symfony/apache-pack
 ./composer.phar require symfony/http-client
 ./composer.phar require symfony/mime
+./composer.phar require symfony/runtime
 ```
 
 ### Auth0
