@@ -55,7 +55,7 @@ class BenchFunctions
 			foreach ( $locations as $location ) {
 				if ( null != $location ) {
 					$location_link .= "/" . rawurlencode( trim( $location ) );
-					$address_array[] = array( "url" => "{$location_link}", "location" => $location);
+					$address_array[] = array( "url" => "{$location_link}", "location" => html_entity_decode( $location));
 				}
 			}
 			$address_array = array_reverse( $address_array );
